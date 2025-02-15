@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html class="text-[10px] overflow-x-hidden" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --font-family: "Montaga";
+        --color-primary: #c6754d;
+        --color-secondary: #2b1105;
+        --color-white: #fcf9f7;
+        --weight-first: 400;
+        --nav-size: 2.2rem;
+        --title-size-p: 2.4rem;
+        --title-size-h1: 10.1rem;
+        --hotel-size-h1: 4.3rem;
+        --hotel-size-p: 1.8rem;
+        --left-h1-size: 5.6rem;
+        --item-title-size: 3.2rem;
+        --label-size: 1.4rem;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montaga&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./input.css" />
+    <title>WEDDING INVITE</title>
+  </head>
+
+  <body class="font-[Montaga] h-svh w-full overflow-x-hidden">
+    <!-- !codage du header -->
+
+    <header
+      class="flex pt-[1.5rem] w-full gap-[8rem] justify-center items-center"
+    >
+      <div class="flex justify-between items-center gap-[6.3rem]">
+        <a href="#" class="text-(--color-secondary) text-[2rem] font-[400]"
+          >Home</a
+        >
+        <a href="#" class="text-(--color-secondary) text-[2rem] font-[400]"
+          >Our Story</a
+        >
+        <a href="#" class="text-(--color-secondary) text-[2rem] font-[400]"
+          >Venue</a
+        >
+      </div>
+      <div>
+        <img src="./img/Logo.svg" alt="" />
+      </div>
+      <div class="flex justify-between items-center gap-[6.3rem]">
+        <a href="#" class="text-(--color-secondary) text-[2rem] font-[400]"
+          >Itinierary</a
+        >
+        <a href="#" class="text-(--color-secondary) text-[2rem] font-[400]"
+          >Registry</a
+        >
+        <a href="#" class="text-(--color-secondary) text-[2rem] font-[400]"
+          >RSVP</a
+        >
+      </div>
+    </header>
+
+    <!--! codage de la  hero section -->
+
+    <section
+      class="flex flex-col justify-center items-center gap-[7rem] pt-[8rem] pb-[6rem]"
+    >
+      <div class="flex flex-col justify-center items-center gap-[1.5rem]">
+        <p class="font-[400] text-[1.7rem] text-(--color-primary)">
+          Please join us to celebrate
+        </p>
+        <h1 class="font-[400] text-[8rem]">Caleb & Amaya</h1>
+        <p class="font-[400] text-[1.7rem] text-(--color-primary)">
+          July 15, 2022 - Boise, Idaho
+        </p>
+      </div>
+      <div>
+        <img src="./img/hero-img.png" alt="un couple" />
+      </div>
+    </section>
+
+    <!-- ! codage de la story section-->
+
+    <section class="flex flex-col w-full pb-[6rem]">
+      <div
+        class="flex justify-center items-center gap-[15rem] px-[10rem] bg-(--color-primary) h-[45rem]"
+      >
+        <h1 class="font-[400] text-[7rem] text-(--color-white)">Our Story</h1>
+        <p class="font-[400] text-[1.8rem] text-(--color-white)">
+          Feugiat pretium egestas enim blandit purus euismod. Feugiat magna
+          aliquam lectus lectus eu amet. Eros, accumsan purus enim nascetur quam
+          diam felis, fringilla varius. Quis purus nisl orci eu, ultrices. Purus
+          pretium egestas ultricies tempus sit elit. Maecenas pellentesque sit
+          eros vitae. Maecenas suspendisse tincidunt ullamcorper justo neque
+          quis et, laoreet. <br /><br />
+          Vitae lacus, aliquet lorem mauris, sit dolor sodales. Nullam quam quis
+          lorem dui tristique massa enim. Faucibus sed egestas mollis vivamus et
+          sed sed. <br /><br />
+          Feugiat magna aliquam lectus lectus eu amet. Eros, accumsan purus enim
+          nascetur quam diam felis, fringilla varius. Quis purus nisl orci eu,
+          ultrices. Purus pretium egestas ultricies tempus sit elit.
+        </p>
+      </div>
+      <div>
+        <img src="./img/story-image.png" alt="" />
+      </div>
+    </section>
+
+    <!-- !codage de la winery section -->
+
+    <section class="flex justify-center items-center gap-[8rem] px-[5rem]">
+      <div class="flex flex-1 flex-col gap-[3rem]">
+        <p class="font-[400] text-[1.8rem] text-(--color-primary)">The Venue</p>
+        <h1 class="font-[400] text-[5.5rem] text-(--color-secondary)">
+          Gino Winery Estate
+        </h1>
+        <p class="font-[400] text-[1.8rem] text-(--color-secondary)">
+          Feugiat pretium egestas enim blandit purus euismod. Feugiat magna
+          aliquam lectus lectus eu amet. Eros, accumsan purus enim nascetur quam
+          diam felis, fringilla varius. <br /><br />
+          4750 Tyler Avenue  <br> Boise, Idaho 83705
+        </p>
+      </div>
+      <div class="relative flex flex-1 items-center justify-center">
+        <img
+          src="./img/image inclinée 3.svg"
+          alt="des fleurs"
+          class="absolute"
+        />
+        <img src="./img/image inclinée 2.jpg" alt="des fleurs" class="" />
+        <img src="./img/image inclinée 1.jpg" alt="des fleurs" class="" />
+      </div>
+    </section>
+
+    <!-- !codage de la section hotel -->
+
+    <section class="flex items-center px-[5rem] py-[8rem] gap-[8rem]">
+      <div class="flex flex-1 flex-col gap-[4rem]">
+        <h1 class="font-[400] text-[4rem] text-(--color-secondary)">Hotel 1</h1>
+        <p class="font-[400] text-[1.8rem] text-(--color-secondary)">
+          Feugiat pretium egestas enim blandit purus euismod. Feugiat magna
+          aliquam lectus lectus eu amet. Eros, accumsan purus enim nascetur quam
+          diam felis, fringilla varius.
+        </p>
+        <button
+          class="font-[400] text-[1.8rem] text-(--color-primary) border border-(--color-primary) h-[6rem] w-[10rem]"
+        >
+          Button
+        </button>
+      </div>
+
+      <div class="flex flex-1 flex-col gap-[4rem]">
+        <h1 class="font-[400] text-[4rem] text-(--color-secondary)">Hotel 2</h1>
+        <p class="font-[400] text-[1.8rem] text-(--color-secondary)">
+          Nec laoreet tristique orci viverra sed aliquam. Amet odio ornare
+          fermentum amet adipiscing malesuada turpis diam augue. Eget enim
+          ultrices etiam nibh at porta.
+        </p>
+        <button
+          class="font-[400] text-[1.8rem] text-(--color-primary) border border-(--color-primary) h-[6rem] w-[10rem]"
+        >
+          Button
+        </button>
+      </div>
+
+      <div class="flex flex-1 flex-col gap-[4rem]">
+        <h1 class="font-[400] text-[4rem] text-(--color-secondary)">Hotel 3</h1>
+        <p class="font-[400] text-[1.8rem] text-(--color-secondary)">
+          Cras rhoncus malesuada eget vitae eleifend. Sodales purus et aliquam
+          diam, nascetur at habitant. A, vel, donec at commodo eu non ac
+          interdum.
+        </p>
+        <button
+          class="font-[400] text-[1.8rem] text-(--color-primary) border border-(--color-primary) h-[6rem] w-[10rem]"
+        >
+          Button
+        </button>
+      </div>
+    </section>
+
+    <!-- !codage de la bridal party section -->
+
+    <section class="flex flex-col gap-[4rem] px-[8rem]">
+      <h1 class="font-[400] text-[5rem] text-(--color-secondary)">The Brital Party</h1>
+      <div class="flex gap-[4rem]">
+        <div class=" flex flex-col gap-[1rem]">
+          <p class="font-bold text-[2rem] text-(--color-secondary) underline decoration-(--color-primary)">Groomsmen</p>
+          <p class="font-[400] text-[2rem] text-(--color-secondary) ">Bridemaids</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- !codage de la section itinerary -->
+
+    <section class="flex flex-col justify-center items-center gap-[5rem]">
+      <h1 class="font-[400] text-[5.6rem] text-(--color-secondary)">
+        Itinerary
+      </h1>
+
+      <div class="flex items-center gap-[5rem]">
+        <p
+          class="font-[400] text-[1.8rem] text-(--color-secondary) hover:font-extrabold hover:underline hover:decoration-(--color-primary)"
+        >
+          Friday, July 11
+        </p>
+        <p
+          class="font-[400] text-[1.8rem] text-(--color-secondary) hover:font-extrabold hover:underline hover:decoration-(--color-primary)"
+        >
+          Saturday, July 12
+        </p>
+        <p
+          class="font-[400] text-[1.8rem] text-(--color-secondary) hover:font-extrabold hover:underline hover:decoration-(--color-primary)"
+        >
+          Sunday, July 13
+        </p>
+      </div>
+
+      <div class="flex flex-col justify-center items-center gap-[7rem] px-[27rem]">
+        <div class="flex justify-center items-center gap-[20rem]">
+          <p class="font-[400] text-[1.8rem] text-(--color-primary)">10am</p>
+          <div class="flex flex-col gap-[3rem]">
+            <h1 class="font-[400] text-[3rem] text-(--color-secondary)">
+              Item Title
+            </h1>
+            <p class="font-[400] text-[1.8rem] text-(--color-secondary)">
+              Phasellus accumsan neque viverra ut sem aliquam purus rhoncus,
+              morbi. Ut in eget leo dui nunc. Tortor viverra magna dignissim
+              sit. Libero eu euismod risus, mauris etiam ut morbi amet in.
+              Tortor duis dignissim adipiscing sem.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex justify-center items-center gap-[20rem]">
+          <p class="font-[400] text-[1.8rem] text-(--color-primary)">12am</p>
+          <div class="flex flex-col gap-[3rem]">
+            <h1 class="font-[400] text-[3rem] text-(--color-secondary)">
+              Item Title
+            </h1>
+            <p class="font-[400] text-[1.8rem] text-(--color-secondary)">
+              Phasellus accumsan neque viverra ut sem aliquam purus rhoncus,
+              morbi. Ut in eget leo dui nunc. Tortor viverra magna dignissim
+              sit. Libero eu euismod risus, mauris etiam ut morbi amet in.
+              Tortor duis dignissim adipiscing sem.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex justify-center items-center gap-[20rem]">
+          <p class="font-[400] text-[1.8rem] text-(--color-primary)">14am</p>
+          <div class="flex flex-col gap-[3rem]">
+            <h1 class="font-[400] text-[3rem] text-(--color-secondary)">
+              Item Title
+            </h1>
+            <p class="font-[400] text-[1.8rem] text-(--color-secondary)">
+              Phasellus accumsan neque viverra ut sem aliquam purus rhoncus,
+              morbi. Ut in eget leo dui nunc. Tortor viverra magna dignissim
+              sit. Libero eu euismod risus, mauris etiam ut morbi amet in.
+              Tortor duis dignissim adipiscing sem.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- !codage du footer -->
+
+    <footer
+      class="flex py-[8rem] w-full gap-[8rem] justify-center items-center"
+    >
+      <a href="#" class="text-(--color-secondary) text-[2rem] font-[400]"
+        >Home</a
+      >
+      <a href="#" class="text-(--color-secondary) text-[2rem] font-[400]"
+        >Our Story</a
+      >
+      <a href="#" class="text-(--color-secondary) text-[2rem] font-[400]"
+        >Venue</a
+      >
+      <a href="#" class="text-(--color-secondary) text-[2rem] font-[400]"
+        >Itinierary</a
+      >
+      <a href="#" class="text-(--color-secondary) text-[2rem] font-[400]"
+        >Registry</a
+      >
+      <a href="#" class="text-(--color-secondary) text-[2rem] font-[400]"
+        >RSVP</a
+      >
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+    "editor.cursorStyle": "block-outline",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "editor.cursorWidth": 5
+}
